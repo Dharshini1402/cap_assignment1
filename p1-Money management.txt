@@ -1,0 +1,49 @@
+Project #1: Money Management
+import java.util.Scanner;
+
+
+public class MyClass 
+{
+    
+	public static void main(String args[])
+	 {
+    
+		Scanner in = new Scanner(System.in);
+  
+		 // int x=5000;
+   
+		 //System.out.println("Enter your income this month:" +x);
+  
+		   System.out.println("Enter your income this month:");
+  
+		   int x = in.nextInt();
+    
+ 		   int NEC,FFA,EDU,LTSS,PLAY,GIVE;
+		   NEC = x*55/100;
+  
+	           FFA = x*10/100;
+      
+		   EDU = x*10/100;
+     
+		   LTSS = x*10/100;
+    
+		   PLAY = x*10/100;
+     
+		   GIVE = x*5/100;
+       
+		   System.out.println("NEC :" + NEC);
+        
+		   System.out.println("FFA :" + FFA);
+         
+		   System.out.println("EDU :" + EDU);
+          
+		   System.out.println("LTSS :" + LTSS);
+          
+		   System.out.println("PLAY :" + PLAY);
+           
+		   System.out.println("GIVE :" + GIVE);
+      
+  
+	  }
+
+}
